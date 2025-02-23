@@ -89,7 +89,7 @@ export const specialityData = [
 export const doctors = [
     {
         _id: 'doc1',
-        name: 'Dr. Richard James',
+        name: 'Dr. Shankhamay Ghosh',
         image: doc1,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -103,11 +103,11 @@ export const doctors = [
     },
     {
         _id: 'doc2',
-        name: 'Dr. Emily Larson',
+        name: 'Asst. Prof. Dr. Sharmin Akter Liza',
         image: doc2,
         speciality: 'Gynecologist',
         degree: 'MBBS',
-        experience: '3 Years',
+        experience: '15 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
@@ -117,11 +117,11 @@ export const doctors = [
     },
     {
         _id: 'doc3',
-        name: 'Dr. Sarah Patel',
+        name: 'DDr. Asif Imran Siddiqui',
         image: doc3,
         speciality: 'Dermatologist',
         degree: 'MBBS',
-        experience: '1 Years',
+        experience: '7 Years',
         about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
@@ -131,7 +131,7 @@ export const doctors = [
     },
     {
         _id: 'doc4',
-        name: 'Dr. Christopher Lee',
+        name: 'Asso. Prof. Dr. Kuntal Roy',
         image: doc4,
         speciality: 'Pediatricians',
         degree: 'MBBS',
@@ -145,7 +145,7 @@ export const doctors = [
     },
     {
         _id: 'doc5',
-        name: 'Dr. Jennifer Garcia',
+        name: 'Dr. Anika',
         image: doc5,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -159,7 +159,7 @@ export const doctors = [
     },
     {
         _id: 'doc6',
-        name: 'Dr. Andrew Williams',
+        name: 'Dr. S.M. Hasan Shahriar',
         image: doc6,
         speciality: 'Neurologist',
         degree: 'MBBS',
@@ -173,7 +173,7 @@ export const doctors = [
     },
     {
         _id: 'doc7',
-        name: 'Dr. Christopher Davis',
+        name: 'Dr. Shubhendu Paul',
         image: doc7,
         speciality: 'General physician',
         degree: 'MBBS',
@@ -187,7 +187,7 @@ export const doctors = [
     },
     {
         _id: 'doc8',
-        name: 'Dr. Timothy White',
+        name: 'Dr. Rk Hasan',
         image: doc8,
         speciality: 'Gynecologist',
         degree: 'MBBS',
@@ -201,7 +201,7 @@ export const doctors = [
     },
     {
         _id: 'doc9',
-        name: 'Dr. Ava Mitchell',
+        name: 'Dr. Jannatul Fardaous',
         image: doc9,
         speciality: 'Dermatologist',
         degree: 'MBBS',
