@@ -93,11 +93,10 @@ export const doctors = [
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line2: 'Circle, Ring Road, Dhaka'
         }
     },
     {
@@ -107,11 +106,10 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '15 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
-            line1: '27th Cross, Richmond',
-            line2: 'Circle, Ring Road, London'
+            line1: '27th Cross, Mirpur',
+            line2: 'Circle, Ring Road, Dhaka'
         }
     },
     {
@@ -121,7 +119,6 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '7 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
@@ -135,7 +132,6 @@ export const doctors = [
         speciality: 'Pediatricians',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
         address: {
             line1: '47th Cross, Richmond',
@@ -149,7 +145,6 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -163,7 +158,6 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -177,7 +171,6 @@ export const doctors = [
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
@@ -191,7 +184,6 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
@@ -205,7 +197,6 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
@@ -219,7 +210,6 @@ export const doctors = [
         speciality: 'Pediatricians',
         degree: 'MBBS',
         experience: '2 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 40,
         address: {
             line1: '47th Cross, Richmond',
@@ -233,7 +223,6 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -247,7 +236,6 @@ export const doctors = [
         speciality: 'Neurologist',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -261,7 +249,6 @@ export const doctors = [
         speciality: 'General physician',
         degree: 'MBBS',
         experience: '4 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
@@ -275,7 +262,6 @@ export const doctors = [
         speciality: 'Gynecologist',
         degree: 'MBBS',
         experience: '3 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
@@ -289,11 +275,114 @@ export const doctors = [
         speciality: 'Dermatologist',
         degree: 'MBBS',
         experience: '1 Years',
-        about: 'Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies. Dr. Davis has a strong commitment to delivering comprehensive medical care, focusing on preventive medicine, early diagnosis, and effective treatment strategies.',
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
             line2: 'Circle, Ring Road, London'
         }
     },
+    {
+        _id: 'doc16',
+        name: 'Dr. Sarah Johnson',
+        image: doc1,
+        speciality: 'Cardiologist',
+        degree: 'MBBS, MD',
+        experience: '8 Years',
+        fees: 70,
+        address: {
+            line1: 'Gulshan Avenue',
+            line2: 'Dhaka, Bangladesh'
+        }
+    },
+    {
+        _id: 'doc17',
+        name: 'Dr. Mohammad Rahman',
+        image: doc2,
+        speciality: 'Neurologist',
+        degree: 'MBBS, FCPS',
+        experience: '12 Years',
+        fees: 80,
+        address: {
+            line1: 'Banani Main Road',
+            line2: 'Dhaka, Bangladesh'
+        }
+    },
+    {
+        _id: 'doc18',
+        name: 'Dr. Fatima Ahmed',
+        image: doc3,
+        speciality: 'Pediatrician',
+        degree: 'MBBS, DCH',
+        experience: '6 Years',
+        fees: 55,
+        address: {
+            line1: 'Dhanmondi Road 27',
+            line2: 'Dhaka, Bangladesh'
+        }
+    },
+    {
+        _id: 'doc19',
+        name: 'Dr. Kamal Hassan',
+        image: doc4,
+        speciality: 'Orthopedic',
+        degree: 'MBBS, MS',
+        experience: '15 Years',
+        fees: 90,
+        address: {
+            line1: 'Uttara Sector 10',
+            line2: 'Dhaka, Bangladesh'
+        }
+    },
+    {
+        _id: 'doc20',
+        name: 'Dr. Nusrat Jahan',
+        image: doc5,
+        speciality: 'Gynecologist',
+        degree: 'MBBS, FCPS',
+        experience: '10 Years',
+        fees: 75,
+        address: {
+            line1: 'Bashundhara Block B',
+            line2: 'Dhaka, Bangladesh'
+        }
+    },
+    {
+        _id: 'doc21',
+        name: 'Dr. Rafiq Islam',
+        image: doc6,
+        speciality: 'Dermatologist',
+        degree: 'MBBS, DDV',
+        experience: '7 Years',
+        fees: 65,
+        address: {
+            line1: 'Mohammadpur Ring Road',
+            line2: 'Dhaka, Bangladesh'
+        }
+    },
+    {
+        _id: 'doc22',
+        name: 'Dr. Sabrina Khan',
+        image: doc7,
+        speciality: 'Psychiatrist',
+        degree: 'MBBS, FCPS',
+        experience: '9 Years',
+        fees: 85,
+        address: {
+            line1: 'Mirpur DOHS',
+            line2: 'Dhaka, Bangladesh'
+        }
+    },
+    {
+        _id: 'doc23',
+        name: 'Dr. Imran Hossain',
+        image: doc8,
+        speciality: 'ENT Specialist',
+        degree: 'MBBS, MS',
+        experience: '11 Years',
+        fees: 70,
+        address: {
+            line1: 'Khilgaon Main Road',
+            line2: 'Dhaka, Bangladesh'
+        }
+    }
 ]

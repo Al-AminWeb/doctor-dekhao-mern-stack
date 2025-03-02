@@ -69,6 +69,12 @@ function Navbar(props) {
                     }>
                         <li>Contact</li>
                     </NavLink>
+
+                    <NavLink to="/appointment" className={({ isActive }) =>
+                        `transition-colors ${isActive ? "text-primary" : "text-gray-600 hover:text-primary"}`
+                    }>
+                        <li>Book Appointment</li>
+                    </NavLink>
                 </ul>
 
                 {/* Desktop Button/Profile */}
@@ -145,6 +151,16 @@ function Navbar(props) {
                         onClick={() => setIsMenuOpen(false)}
                     >
                         <li>Contact</li>
+                    </NavLink>
+
+                    <NavLink
+                        to="/appointment"
+                        className={({ isActive }) =>
+                            `transition-colors ${isActive ? "text-primary" : "text-gray-600 hover:text-primary"}`
+                        }
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        <li>Book Appointment</li>
                     </NavLink>
                 </ul>
 
