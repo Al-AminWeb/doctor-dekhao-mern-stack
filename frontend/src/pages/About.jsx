@@ -21,7 +21,7 @@ const About = () => {
                         className='w-full rounded-lg shadow-lg mb-3'
                     />
                     <figcaption className='text-sm text-gray-600 mt-2'>
-                        Your Healthcare Journey Starts Here
+                        Your Healthcare Journey Starts Here With Doctor Dekhao.
                     </figcaption>
                 </figure>
                 <div className='space-y-4'>
