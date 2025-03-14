@@ -4,6 +4,7 @@ import SpecialityMenu from '../components/SpecialityMenu';
 import TopDoctors from '../components/TopDoctors';
 import Banner from '../components/Banner';
 import Footer from "../components/Footer.jsx";
+import Appointment from './Appointment.jsx';
 
 function Home(props) {
     return (
