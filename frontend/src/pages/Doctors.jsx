@@ -29,6 +29,18 @@ function Doctors() {
         setActiveTab('about');
     };
 
+    // Mock clinic data - In a real app, this would come from your backend
+    const mockClinicInfo = {
+        name: "HealthCare Clinic",
+        hours: [
+            { day: "Monday - Friday", time: "9:00 AM - 5:00 PM" },
+            { day: "Saturday", time: "10:00 AM - 2:00 PM" },
+            { day: "Sunday", time: "Closed" }
+        ],
+        facilities: ["Parking Available", "Wheelchair Accessible", "Lab Services", "Pharmacy"],
+        emergencyContact: "+1 234 567 8900"
+    };
+
     // Mock patient data - In a real app, this would come from your backend
     const mockPatients = [
         { id: 1, name: "John Doe", age: 35, lastVisit: "2024-02-15", condition: "Regular Checkup" },
@@ -127,6 +139,16 @@ function Doctors() {
                                     </button>
                                     <button
                                         className={`px-4 py-2 font-medium ${
+                                            activeTab === 'clinic'
+                                                ? 'text-primary border-b-2 border-primary'
+                                                : 'text-gray-500 hover:text-gray-700'
+                                        }`}
+                                        onClick={() => setActiveTab('clinic')}
+                                    >
+                                        Clinic
+                                    </button>
+                                    <button
+                                        className={`px-4 py-2 font-medium ${
                                             activeTab === 'patients'
                                                 ? 'text-primary border-b-2 border-primary'
                                                 : 'text-gray-500 hover:text-gray-700'
@@ -158,13 +180,58 @@ function Doctors() {
                                                 <p className="font-medium">${selectedDoctor.fees}</p>
                                             </div>
                                         </div>
+                                    </div>
+                                ) : activeTab === 'clinic' ? (
+                                    <div className="space-y-6">
+                                        <div>
+                                            <h3 className="font-semibold text-lg mb-2">Clinic Address</h3>
+                                            <div className="bg-gray-50 p-4 rounded-lg">
+                                                <p className="font-medium text-gray-800">{mockClinicInfo.name}</p>
+                                                <p className="text-gray-600 mt-1">
+                                                    {selectedDoctor.address.line1}<br />
+                                                    {selectedDoctor.address.line2}
+                                                </p>
+                                            </div>
+                                        </div>
 
                                         <div>
-                                            <h3 className="font-semibold text-lg mb-2">Location</h3>
-                                            <p className="text-gray-600">
-                                                {selectedDoctor.address.line1}<br />
-                                                {selectedDoctor.address.line2}
-                                            </p>
+                                            <h3 className="font-semibold text-lg mb-2">Clinic Hours</h3>
+                                            <div className="bg-gray-50 p-4 rounded-lg space-y-2">
+                                                {mockClinicInfo.hours.map((schedule, index) => (
+                                                    <div key={index} className="flex justify-between">
+                                                        <span className="text-gray-600">{schedule.day}</span>
+                                                        <span className="text-gray-800 font-medium">{schedule.time}</span>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <h3 className="font-semibold text-lg mb-2">Facilities Available</h3>
+                                            <div className="bg-gray-50 p-4 rounded-lg">
+                                                <div className="grid grid-cols-2 gap-2">
+                                                    {mockClinicInfo.facilities.map((facility, index) => (
+                                                        <div key={index} className="flex items-center gap-2">
+                                                            <svg className="w-4 h-4 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
+                                                            </svg>
+                                                            <span className="text-gray-600">{facility}</span>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div>
+                                            <h3 className="font-semibold text-lg mb-2">Emergency Contact</h3>
+                                            <div className="bg-gray-50 p-4 rounded-lg">
+                                                <div className="flex items-center gap-2">
+                                                    <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                                    </svg>
+                                                    <span className="text-gray-800 font-medium">{mockClinicInfo.emergencyContact}</span>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 ) : (
